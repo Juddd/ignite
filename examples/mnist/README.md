@@ -93,9 +93,9 @@ python mnist_save_resume_engine.py --log_dir=logs-det/run_1 --deterministic --ep
 Resume the training
 
 ```bash
-python mnist_save_resume_engine.py --log_dir=logs/run_2 --resume_from=logs/run_1/checkpoint_5628.pt --epochs=10
+python mnist_save_resume_engine.py --log_dir=logs/run_2 --resume_from=logs/run_1/checkpoint_10.pt --epochs=10
 # or same in deterministic mode
-python mnist_save_resume_engine.py --log_dir=logs-det/run_2 --resume_from=logs-det/run_1/checkpoint_5628.pt --deterministic --epochs=10
+python mnist_save_resume_engine.py --log_dir=logs-det/run_2 --resume_from=logs-det/run_1/checkpoint_10.pt --deterministic --epochs=10
 ```
 
 Start tensorboard:
